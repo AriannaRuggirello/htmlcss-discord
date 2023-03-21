@@ -20,7 +20,7 @@ button{
     padding: 15px;
     border-radius: 30px;
     border: none;
-    margin: 20px 0;    
+    margin: 10px 0;    
 }
 
 .header-container,.hero-container,.footer-container,.footer-signup,.row-reverse,.row{
@@ -71,10 +71,12 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
     text-align: center;
-    padding: 40px;
     color: white;
+}
+
+.hero-container p{
+    padding: 0 100px;
 }
 
 button.font-size{
@@ -102,15 +104,14 @@ section{
     width: 30%;
 }
 
-.section-img{
+section img{
     width: 60%;
 }
 
 .row{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-      
+    align-items: center;      
 }
 
 .row-reverse{
