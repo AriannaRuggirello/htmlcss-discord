@@ -1,4 +1,4 @@
-.cv /* general rules */
+/* general rules */
 
 *{ 
     margin: 0; 
@@ -23,7 +23,7 @@ button{
     margin: 10px 0;    
 }
 
-.header-container,.hero-container,.footer-container,.footer-signup,.row-reverse,.row{
+.hero-container,.footer-container,.footer-signup,.row-reverse,.row{
     width: 70%;
     margin: 0 auto;    
 }
@@ -49,7 +49,7 @@ header{
 
 .header-container{    
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;       
 }
 
@@ -62,7 +62,7 @@ nav{
 
 .hero{    
     background-image: url(../img/jumbo.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;    
     padding: 100px 0;
 }
@@ -73,6 +73,10 @@ nav{
     justify-content: center;
     text-align: center;
     color: white;
+}
+
+.hero-buttons{
+    margin: 20px 0;
 }
 
 .hero-container p{
@@ -102,6 +106,10 @@ section{
 
 .decription{
     width: 30%;
+}
+
+.description p{
+    padding: 0 50px;
 }
 
 section img{
@@ -157,15 +165,11 @@ footer{
     padding: 50px 0;     
 }
 
-footer li{
-    list-style: none;
-}
-
-.footer-signup{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+footer ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    line-height: 30px;   
 }
 
 button.blue-button{
@@ -173,12 +177,21 @@ button.blue-button{
     color: white;    
 }
 
-
 .footer-title{
-    color: #255EE9;
+    color: #6B85DA;
     font-size: 20px;
 }
 
+.footer-first-title{
+    font-size:35px;
+    color: #6B85DA;
+    font-weight: 700;
+}
+
+.footer-signup{
+    display: flex;
+    justify-content: space-between;
+}
 
 /* debug rules */
 
