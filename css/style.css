@@ -1,0 +1,185 @@
+/* general rules */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+button{
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    margin: 20px 0;    
+}
+
+.header-container,.hero-container,.footer-container,.footer-signup{
+    width: 70%;
+    margin: 0 auto;    
+}
+
+/* header rules */
+
+header{
+    background-color: #255EE9;
+    min-height: 20px;
+}
+
+.header-container{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex; 
+    gap: 50px;   
+   
+}
+
+/* hero rules */
+
+.hero{    
+    background-color: #255EE9;
+    height: 450px;
+    padding: 100px 0;
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+
+button.font-size{
+    font-size: 20px;
+}
+
+button.grey-button{
+    background-color: #23272A;
+    color: white;    
+}
+
+/* main rules */
+
+.wallpaper-color{
+    background-color: #F6F6F6;
+    width: 100%;
+
+}
+
+section{
+    min-height: 450px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.col{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.description{
+    width: 37%;
+}
+
+.call-to-action{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer rules */
+
+footer{
+    background-color: #23272A;
+    min-height: 350px;  
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;    
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 50px 0;     
+}
+
+footer li{
+    list-style: none;
+}
+
+.footer-signup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+button.blue-button{
+    background-color:#7289DA ;
+    color: white;    
+}
+
+
+.footer-title{
+    color: #255EE9;
+    font-size: 20px;
+}
+
+/* debug rules */
+
+img{
+    background-color: rosybrown;       
+}
+
+nav{
+    background-color: darkgreen;    
+}
+
+h2{
+    background-color: orange;
+    font-size: 50px;
+}
+
+p{
+    background-color: green;
+    font-size: 20px;    
+}
+
+/* section{
+    background-color: grey;
+    border: darkred solid 2px;
+    height: 400px;
+} */
+
+/* .call-to-action{
+    background-color: grey;
+    border: darkred solid 2px;
+    height: 200px;
+} */
+
