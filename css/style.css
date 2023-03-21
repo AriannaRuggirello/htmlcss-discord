@@ -12,7 +12,8 @@ body{
 
 a{
     text-decoration: none;
-    color: white;    
+    color: white;
+       
 }
 
 button{
@@ -170,6 +171,7 @@ button.blue-button{
     color: #255EE9;
     font-size: 20px;
 }
+
 
 /* debug rules */
 
