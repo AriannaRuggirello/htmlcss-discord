@@ -1,15 +1,18 @@
-/* general rules */
+.cv /* general rules */
 
-*{
-    margin: 0;
+*{ 
+    margin: 0; 
     padding: 0;
     box-sizing: border-box;
 }
 
+body{
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
 a{
     text-decoration: none;
-    color: white;
-    
+    color: white;    
 }
 
 button{
@@ -28,13 +31,13 @@ button{
 
 header{
     background-color: #255EE9;
-    min-height: 20px;
+    min-height: 20px;   
 }
 
 .header-container{    
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;       
 }
 
 nav{
@@ -43,11 +46,24 @@ nav{
    
 }
 
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+p{
+    font-size: 20px;
+}
+
 /* hero rules */
 
 .hero{    
-    background-color: #255EE9;
-    height: 450px;
+    background-image: url(../img/jumbo.png);
+    background-size: contain;
+    background-repeat: no-repeat;    
     padding: 100px 0;
 }
 
@@ -55,9 +71,10 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     text-align: center;
     padding: 40px;
+    color: white;
 }
 
 button.font-size{
@@ -79,6 +96,7 @@ button.grey-button{
 
 section{
     min-height: 450px;
+    margin: 80px 0;
 }
 
 .row{
@@ -92,19 +110,12 @@ section{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
-    align-items: center;
-    
-}
-.col{
-    display: flex;
-    flex-direction: column;    
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    align-items: center;    
 }
 
-.description{
-    width: 37%;
+.column-section{
+    text-align: center;
+    padding:50px 100px;
 }
 
 .call-to-action{
@@ -112,6 +123,15 @@ section{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.star-background{    
+    font-weight: bold;
+    font-size: 30px;
+    background-image:url(../img/stars.svg) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 40px;
 }
 
 /* footer rules */
@@ -153,7 +173,7 @@ button.blue-button{
 
 /* debug rules */
 
-img{
+/* img{
     background-color: rosybrown;       
 }
 
@@ -169,7 +189,7 @@ h2{
 p{
     background-color: green;
     font-size: 20px;    
-}
+} */
 
 /* section{
     background-color: grey;
